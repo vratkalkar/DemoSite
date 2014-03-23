@@ -25,7 +25,7 @@ p {
 
   img:hover{
     background:black;
-    color: gray;
+    color: black;
     border: 2px solid black;
 
   }
@@ -46,13 +46,17 @@ p {
 
   .item {
     float:left;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
   }
 
   .item img {
     max-width: 100%;
     max-height: 100%;
     vertical-align: bottom;
+  }
+
+  img:hover{
+    background-color: black;
   }
 
   .first-item {
