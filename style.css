@@ -137,6 +137,10 @@ p {
     background: none;
   }
 
+  .sidebar-brand {
+    font-family: Helvetica Neue;
+  }
+
   #menu-toggle {
     display: none;
   }
@@ -180,4 +184,3 @@ p {
     padding: 20px;
   }
 
-  
