@@ -1,0 +1,16 @@
+.container{
+  float: right;
+  padding: 200px 10px 180px 180px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-right: 302px;
+
+}
+
+#button{
+   padding-left: 255px;
+   margin-top: 40px;
+}

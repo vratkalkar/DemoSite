@@ -3,20 +3,29 @@
 <head>
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/cyborg/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
 
-  <div id="container>"
+  <div class="container">
 
   <form class="form-horizontal">
   <fieldset>
 
 
-    <legend>Account Settings</legend>
+    <h1>Account Settings</h1>
+
+    <div class="form-group">
+      <label for="inputName" class="col-lg-2 control-label">Full Name</label>
+      <div class="col-md-4">
+        <input class="form-control" id="inputName" placeholder="Full Name" type="text">
+      </div>
+    </div>
+
     <div class="form-group">
       <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-      <div class="col-xs-4">
+      <div class="col-md-4">
         <input class="form-control" id="inputEmail" placeholder="Email" type="text">
       </div>
     </div>
@@ -36,10 +45,13 @@
         </div>
       </div>
 
-      <div class="col-lg-2">
+      <div id="button">
+      
         <button class="btn btn-default">Cancel</button>
         <button type="submit" class="btn btn-primary">Submit</button>
+
       </div>
+    
       
   </fieldset>
 </form>
