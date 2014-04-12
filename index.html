@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="font-awesome/css/font-swesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/simple-sidebar.css" >
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/cyborg/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="shim.css">
+    <link href="tipr/tipr.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
  </head>
 
@@ -21,7 +22,7 @@
         <ul class="sidebar-nav">
             <li class="sidebar-brand"><a href="#"> MSIC</a>
             </li>
-            <li><a href="#">Home</a>
+            <li><a href="index.html">Home</a>
             </li>
             <li><a href="settings.html">Settings</a>
             </li>
@@ -29,6 +30,10 @@
             </li>
         </ul>
       </div>
+
+
+
+
 
 <!--This is where the nav bar ends-->
 
@@ -45,138 +50,79 @@
 
 
 
-<!-- This is where the lightobox gallery starts-->
-
-<div id="blueimp-gallery" class="blueimp-gallery">
-<div class="slides"></div>
-  <h3 class="title"></h3>
-  <a class="prev">&lsaquo;</a>
-  <a class="next">&rsaquo;</a>
-  <a class="close">&times;</a>
-  <a class="play-pause"></a>
-  <ol class="indicator"></ol>
-
-
-  <div class="modal fade">
-    <div class="modal-dialog">
-      <div class="modal-header">
-        <button type="button" class="close" aria-hidden="true">&times;</button>
-        <h4 class="modal-title"></h4>
-      </div>
-      <div class="modal-body next"></div>
-      <div class="modal-footer">
-         <button type="button" class="btn btn-default pull-left prev">
-          <i class="glyphicon glyphicon-chevron-left"></i>
-          Previous
-         </button>
-         <button type="button" class="btn btn-primary next">
-          Next
-          <i class="glyphicon glyphicon-chevron-right"></i>
-         </button>
-       </div>
-     </div>
-   </div>
- </div>
-</div>
-
-
 <div id="links">
 <div class="container">
 
 <br>
 <br>
 
-  <div class="item">
-    <a href="http://3.bp.blogspot.com/-FFMCbcuYWXE/UPE-1hdnAhI/AAAAAAAAACc/nFeTMi3Uz5Y/s400/ZZTOPlafutura.jpg" title="ZZ Top" data-gallery>
-    <img src="http://3.bp.blogspot.com/-FFMCbcuYWXE/UPE-1hdnAhI/AAAAAAAAACc/nFeTMi3Uz5Y/s400/ZZTOPlafutura.jpg" width="250" height="250" />
+  <div class="item tip" data-tip="Click Here">
+    <img src="http://3.bp.blogspot.com/-FFMCbcuYWXE/UPE-1hdnAhI/AAAAAAAAACc/nFeTMi3Uz5Y/s400/ZZTOPlafutura.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/48748093&amp;auto_play=true&amp;hide_related=true&amp;visual=true">
   </a>
+    </div>
+
+  <div class="item tip" data-tip="Click Image">
+    <img src="http://neuronioonline.com.br/tdcast/wp-content/uploads/2013/10/joe-bonamassa-380x340.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62115911&amp;auto_play=true&amp;hide_related=true&amp;visual=true">
+  </div>
+
+  <div class="item tip" data-tip="Click Image">
+  <img src="http://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Album_Suspended_Animation_cover.jpg/220px-Album_Suspended_Animation_cover.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/142838772&amp;auto_play=true&amp;hide_related=true&amp;visual=true"/>
+  </div>
+
+  <div class="item tip" data-tip="Click Image">
+    <img src="http://images.skem1.com/client_id_5138/Album_Cover-_Web.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/101501396&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
   </div>
 
   <div class="item">
-
-    <a href="http://neuronioonline.com.br/tdcast/wp-content/uploads/2013/10/joe-bonamassa-380x340.jpg" title="Joe Bonamassa" data-gallery>
-    <img src="http://neuronioonline.com.br/tdcast/wp-content/uploads/2013/10/joe-bonamassa-380x340.jpg" width="250" height="250" />
-  </a>
+    <img src="http://fanart.tv/fanart/music/9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa/albumcover/the-ultimate-collection-4fea6e5541880.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/43700803&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
   </div>
 
   <div class="item">
-    <a href="http://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Album_Suspended_Animation_cover.jpg/220px-Album_Suspended_Animation_cover.jpg" title="John Petrucci (Dream Theater)" data-gallery>
-  <img src="http://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Album_Suspended_Animation_cover.jpg/220px-Album_Suspended_Animation_cover.jpg" width="250" height="250" data-toggle="tooltip" title="Click for slideshow" />
-  </a>
-  </div>
-
-  <div class="item">
-    <a href="http://images.skem1.com/client_id_5138/Album_Cover-_Web.jpg" title="Slash" data-gallery>
-    <img src="http://images.skem1.com/client_id_5138/Album_Cover-_Web.jpg" width="250" height="250" />
-  </a>
-  </div>
-
-  <div class="item">
-    <a href="http://fanart.tv/fanart/music/9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa/albumcover/the-ultimate-collection-4fea6e5541880.jpg" title="The Who" data-gallery>
-    <img src="http://fanart.tv/fanart/music/9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa/albumcover/the-ultimate-collection-4fea6e5541880.jpg" width="250" height="250" />
-    </a>
-  </div>
-
-  <div class="item">
-    <a href="http://wwwrollingstones.wpengine.netdna-cdn.com/files/2012/09/12186694-600x600.jpg" title="The Rolling Stones" data-gallery>
-    <img src="http://wwwrollingstones.wpengine.netdna-cdn.com/files/2012/09/12186694-600x600.jpg" width="250" height="250" />
-    </a>
+    <img src="http://wwwrollingstones.wpengine.netdna-cdn.com/files/2012/09/12186694-600x600.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/69325052&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
 </div>
 
   <div class="item">
-     <a href="http://www.progarchives.com/progressive_rock_discography_covers/1830/cover_1112226102011_r.JPG" title="Steve Vai" data-gallery>
       <img src="http://www.progarchives.com/progressive_rock_discography_covers/1830/cover_1112226102011_r.JPG" width="250" height="250" />
-    </a>
   </div>
 
   <div class="item">
-    <a href="http://www.satriani.com/2000/discography/Engines_Of_Creation/Engines_Of_Creation.jpg" title="Joe Satriani" data-gallery>
-      <img src="http://www.satriani.com/2000/discography/Engines_Of_Creation/Engines_Of_Creation.jpg" width="250" height="250" />
-    </a>
+      <img src="http://www.satriani.com/2000/discography/Engines_Of_Creation/Engines_Of_Creation.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/4941385&amp;auto_play=true&amp;hide_related=false&amp;visual=true" />
   </div>
 
   <div class="item">
-    <a href="http://www.israbox.com/uploads/posts/2011-11/1321548854_cover.jpg" title="Eric Clapton" data-gallery>
       <img src="http://www.israbox.com/uploads/posts/2011-11/1321548854_cover.jpg" width="250" height="250" />
-    </a>
   </div>
 
   <div class="item">
-    <a href="http://blogs.riverfronttimes.com/rftmusic/jeffbeckalbumcover.jpg" title="Jeff Beck" data-gallery>
-      <img src="http://blogs.riverfronttimes.com/rftmusic/jeffbeckalbumcover.jpg" width="250" height="250" />
-    </a>
+      <img src="http://blogs.riverfronttimes.com/rftmusic/jeffbeckalbumcover.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/4594900&amp;auto_play=true&amp;hide_related=false&amp;visual=true" />
   </div>
 
   <div class="item">
-    <a href="http://ecx.images-amazon.com/images/I/414688J4GZL.jpg" title="SRV" data-gallery>
-      <img src="http://ecx.images-amazon.com/images/I/414688J4GZL.jpg" width="250" height="250" />
-    </a>
+      <img src="http://ecx.images-amazon.com/images/I/414688J4GZL.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/29905716&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
   </div>
 
   <div class="item">
-    <a href="http://ecx.images-amazon.com/images/I/61RqT3nHuhL.jpg" title="Tom Petty" data-gallery>
-      <img src="http://ecx.images-amazon.com/images/I/61RqT3nHuhL.jpg" width="250" height="250" />
-    </a>
+      <img src="http://ecx.images-amazon.com/images/I/61RqT3nHuhL.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2889436&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
     </div>
 
   <div class="item">
-    <a href="http://www.wallpaperup.com/uploads/wallpapers/2012/12/16/25344/e8616408657262bdf67cfd64e4e7ce3c.jpg" title="Led Zeppelin" data-gallery>
-      <img src="http://www.wallpaperup.com/uploads/wallpapers/2012/12/16/25344/e8616408657262bdf67cfd64e4e7ce3c.jpg" width="250" height="250" />
-    </a>
+      <img src="http://www.wallpaperup.com/uploads/wallpapers/2012/12/16/25344/e8616408657262bdf67cfd64e4e7ce3c.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/54001849&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
   </div>
 
   <div class="item">
-    <a href="http://2.bp.blogspot.com/_ZNB2neQ4mvk/R0xWd9BI81I/AAAAAAAAGHs/Pp_GxpXnN80/s1600/Jimi_Hendrix_Axis_album_cover.jpg" title="Jimi Hendrix" data-gallery>
-    <img src="http://2.bp.blogspot.com/_ZNB2neQ4mvk/R0xWd9BI81I/AAAAAAAAGHs/Pp_GxpXnN80/s1600/Jimi_Hendrix_Axis_album_cover.jpg" width="250" height="250"/>
-  </a>
+    <img src="http://2.bp.blogspot.com/_ZNB2neQ4mvk/R0xWd9BI81I/AAAAAAAAGHs/Pp_GxpXnN80/s1600/Jimi_Hendrix_Axis_album_cover.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52395064&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
  </div>
 
  <div class="item">
-  <a href="http://ecx.images-amazon.com/images/I/51MaqVc6FtL.jpg" title="Aerosmith" data-gallery>
-    <img src="http://ecx.images-amazon.com/images/I/51MaqVc6FtL.jpg" width="250" height="250" />
-  </a>
+    <img src="http://ecx.images-amazon.com/images/I/51MaqVc6FtL.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/30585535&amp;auto_play=true&amp;hide_related=false&amp;visual=true">
+ </div>
+
+ <div class="item">
+   <img src="http://upload.wikimedia.org/wikipedia/en/6/6d/The_Doors_box_set_in_DRLP01SET.jpg" width="250" height="250" data-url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111197912&amp;auto_play=true&amp;hide_related=false&amp;visual=true"/>
 </div>
-</div>
+
+
+
 
 
 
@@ -185,21 +131,18 @@
   <small>Everybody with some <cite title="Source Title">Knowledge</cite></small>
 </blockquote>
 
-
-
-
+<div id="fewd-shim">
+  <iframe height="500"></iframe>
+</div>
 
 
        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-       <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-       <script src="js/bootstrap-image-gallery.min.js"></script>
-       <script src="../jquery.min.js" >
        <script src="../jquery.row-grid.min.js"></script>
-       <script src="//cdn.mobify.com/modules/pikabu/0.2.1/pikabu.min.js"></script>
-
-       <script src="../script.js"></script>
-      
+       <script src="shim.js"></script>
+       <script src="script.js"></script>
+       <script src="tipr/tipr.min.js"></script>
+       <script></script>
 
       </body>
 </html>
