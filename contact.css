@@ -21,3 +21,8 @@ i {
   color: grey;
   margin-top: 40px;
 }
+
+blockquote {
+  margin-top: -45px;
+  float: right;
+}
