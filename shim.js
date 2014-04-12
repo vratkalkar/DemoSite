@@ -1,5 +1,5 @@
 // this will pop an overlay
-(function() {	// protect the lemmings!
+(function() {	
 
 	var shim = function( anchSel, parent, shimSel ) { 
 		var self = this;
