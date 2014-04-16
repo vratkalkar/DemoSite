@@ -19,20 +19,3 @@
 	border: 0px solid transparent;
 	padding: 0px;
 }
-
-@media (max-width: 980px) {
-
-	#fewd-shim {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	margin-left: 148px;
-	background-color: rgba( 280,280,280, 0.8 );
-	top: 0px;
-	left: 0px;
-	z-index: 9999999999;
-	display: none;
-}
-
-
-}
